@@ -16,4 +16,5 @@
 "EmailYaEnUso" = "El email proporcionado ya esta en uso";
 "MinCaracteresContraseña" = "La contraseña debe tener al menos 6 caracteres";
 "EmailInvalido" = "Debe introducir un email valido";
+"AñadirCV" = "Añadir CV";
 

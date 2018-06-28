@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A186B97820E2B69C00BB415C /* CVCoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A186B97620E2B69C00BB415C /* CVCoreModel.xcdatamodeld */; };
+		A186B98820E2F63900BB415C /* ConocimientosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A186B98720E2F63900BB415C /* ConocimientosTableViewCell.swift */; };
+		A186B98A20E2F87900BB415C /* ConocimientosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A186B98920E2F87900BB415C /* ConocimientosViewController.swift */; };
 		A1987E8320E1AAB1009CF2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1987E8220E1AAB1009CF2E4 /* AppDelegate.swift */; };
-		A1987E8520E1AAB1009CF2E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1987E8420E1AAB1009CF2E4 /* ViewController.swift */; };
 		A1987E8820E1AAB1009CF2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1987E8620E1AAB1009CF2E4 /* Main.storyboard */; };
 		A1987E8A20E1AAB2009CF2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1987E8920E1AAB2009CF2E4 /* Assets.xcassets */; };
 		A1987E8D20E1AAB2009CF2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1987E8B20E1AAB2009CF2E4 /* LaunchScreen.storyboard */; };
+		A1987E9C20E1B3D2009CF2E4 /* CvVisualizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1987E9B20E1B3D2009CF2E4 /* CvVisualizationViewController.swift */; };
+		A1987E9E20E1B55C009CF2E4 /* ChangeCvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1987E9D20E1B55C009CF2E4 /* ChangeCvViewController.swift */; };
+		A1987EA120E1B709009CF2E4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1987EA020E1B709009CF2E4 /* Localizable.strings */; };
+		A1987EA320E1B74C009CF2E4 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1987EA220E1B74C009CF2E4 /* DatePickerDialog.swift */; };
+		A1987EA520E1B797009CF2E4 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1987EA420E1B797009CF2E4 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A186B97720E2B69C00BB415C /* CVCoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CVCoreModel.xcdatamodel; sourceTree = "<group>"; };
+		A186B98720E2F63900BB415C /* ConocimientosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConocimientosTableViewCell.swift; sourceTree = "<group>"; };
+		A186B98920E2F87900BB415C /* ConocimientosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConocimientosViewController.swift; sourceTree = "<group>"; };
 		A1987E7F20E1AAB1009CF2E4 /* CVVisualization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVVisualization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1987E8220E1AAB1009CF2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1987E8420E1AAB1009CF2E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1987E8720E1AAB1009CF2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1987E8920E1AAB2009CF2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1987E8C20E1AAB2009CF2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1987E8E20E1AAB2009CF2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1987E9620E1B0E2009CF2E4 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		A1987E9B20E1B3D2009CF2E4 /* CvVisualizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CvVisualizationViewController.swift; sourceTree = "<group>"; };
+		A1987E9D20E1B55C009CF2E4 /* ChangeCvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCvViewController.swift; sourceTree = "<group>"; };
+		A1987EA020E1B709009CF2E4 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A1987EA220E1B74C009CF2E4 /* DatePickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		A1987EA420E1B797009CF2E4 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A186B98620E2DEE100BB415C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A186B98720E2F63900BB415C /* ConocimientosTableViewCell.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A1987E7620E1AAB1009CF2E4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +77,54 @@
 		A1987E8120E1AAB1009CF2E4 /* CVVisualization */ = {
 			isa = PBXGroup;
 			children = (
+				A1987EA620E1B7C5009CF2E4 /* View */,
+				A1987E9A20E1B3A9009CF2E4 /* Controllers */,
+				A1987E9720E1B26E009CF2E4 /* Model */,
+				A1987E9420E1B0D8009CF2E4 /* Others */,
 				A1987E8220E1AAB1009CF2E4 /* AppDelegate.swift */,
-				A1987E8420E1AAB1009CF2E4 /* ViewController.swift */,
-				A1987E8620E1AAB1009CF2E4 /* Main.storyboard */,
-				A1987E8920E1AAB2009CF2E4 /* Assets.xcassets */,
-				A1987E8B20E1AAB2009CF2E4 /* LaunchScreen.storyboard */,
 				A1987E8E20E1AAB2009CF2E4 /* Info.plist */,
 			);
 			path = CVVisualization;
+			sourceTree = "<group>";
+		};
+		A1987E9420E1B0D8009CF2E4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A1987EA020E1B709009CF2E4 /* Localizable.strings */,
+				A1987E8920E1AAB2009CF2E4 /* Assets.xcassets */,
+				A1987E9620E1B0E2009CF2E4 /* KeyboardLayoutConstraint.swift */,
+				A1987EA220E1B74C009CF2E4 /* DatePickerDialog.swift */,
+				A1987EA420E1B797009CF2E4 /* DateExtension.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A1987E9720E1B26E009CF2E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A186B97620E2B69C00BB415C /* CVCoreModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1987E9A20E1B3A9009CF2E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A186B98620E2DEE100BB415C /* Resources */,
+				A1987E9B20E1B3D2009CF2E4 /* CvVisualizationViewController.swift */,
+				A1987E9D20E1B55C009CF2E4 /* ChangeCvViewController.swift */,
+				A186B98920E2F87900BB415C /* ConocimientosViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1987EA620E1B7C5009CF2E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1987E8B20E1AAB2009CF2E4 /* LaunchScreen.storyboard */,
+				A1987E8620E1AAB1009CF2E4 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1987E8D20E1AAB2009CF2E4 /* LaunchScreen.storyboard in Resources */,
+				A1987EA120E1B709009CF2E4 /* Localizable.strings in Resources */,
 				A1987E8A20E1AAB2009CF2E4 /* Assets.xcassets in Resources */,
 				A1987E8820E1AAB1009CF2E4 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1987E8520E1AAB1009CF2E4 /* ViewController.swift in Sources */,
+				A186B98820E2F63900BB415C /* ConocimientosTableViewCell.swift in Sources */,
+				A186B97820E2B69C00BB415C /* CVCoreModel.xcdatamodeld in Sources */,
+				A1987EA520E1B797009CF2E4 /* DateExtension.swift in Sources */,
+				A1987E9E20E1B55C009CF2E4 /* ChangeCvViewController.swift in Sources */,
 				A1987E8320E1AAB1009CF2E4 /* AppDelegate.swift in Sources */,
+				A1987E9C20E1B3D2009CF2E4 /* CvVisualizationViewController.swift in Sources */,
+				A1987EA320E1B74C009CF2E4 /* DatePickerDialog.swift in Sources */,
+				A186B98A20E2F87900BB415C /* ConocimientosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +404,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A186B97620E2B69C00BB415C /* CVCoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A186B97720E2B69C00BB415C /* CVCoreModel.xcdatamodel */,
+			);
+			currentVersion = A186B97720E2B69C00BB415C /* CVCoreModel.xcdatamodel */;
+			path = CVCoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1987E7720E1AAB1009CF2E4 /* Project object */;
 }

@@ -9,7 +9,7 @@
 import UIKit
 
 class ConocimientosTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var conocimientoLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
