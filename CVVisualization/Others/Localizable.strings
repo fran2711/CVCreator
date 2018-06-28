@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  CVVisualization
+
+  Created by Fran Lucena on 26/6/18.
+  Copyright © 2018 Fran Lucena. All rights reserved.
+*/
+
+"Error" = "Error";
+"CamposVacios" = "No puede dejar campos vacios";
+"Ok" = "Ok";
+"Continue" = "Continuar";
+"Cancel" = "Cancelar";
+"Desde" = "Desde";
+"Hasta" = "Hasta";
+"EmailYaEnUso" = "El email proporcionado ya esta en uso";
+"MinCaracteresContraseña" = "La contraseña debe tener al menos 6 caracteres";
+"EmailInvalido" = "Debe introducir un email valido";
+
